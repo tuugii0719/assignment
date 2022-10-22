@@ -140,7 +140,11 @@ body{
 .col-2 .colr::after{
     content: " ";
     position: absolute;
-    background-image: orange;
+    background-color: orange;
+    width: 20%;
+    height: 100%;
+    left:0;
+    top: 0;
 }
 
 .experience h1{
