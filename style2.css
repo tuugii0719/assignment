@@ -1,0 +1,163 @@
+/* nav and cols*/
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin:0;
+    font-family: "poppins";
+}
+.col-3{
+    flex: 1 400px;
+    width: calc(100% / 3 - 40px);
+}
+.col-2{
+    width: calc(100% / 2 - 40px);
+    flex: 1 400px;
+}
+.section{
+
+    margin: 70px 0;
+}
+.bg-color{
+    background-color: #DCEAF5;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.Menu{
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+    align-items: center;
+    list-style: none;
+}
+.Menu li{
+    margin-left: 20px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    height: 60vh;
+    align-items:flex-end;
+}
+
+.banner-image img{
+    max-width: 100%;
+    vertical-align: bottom;
+}
+.banner-left h2{
+    font-weight: 900;
+}
+.sos{
+    background-color: orange;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.sas{
+    color: black;
+    margin-left: 40px;
+}
+.Cta{
+    background-color: rgb(251, 232, 197);
+    color: orange;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+/* footer */
+/*footer*/
+.footer{
+    background-color: #063255;
+    color: white;
+    padding-top: 30px;
+}
+.footer a{
+    color: white;
+
+}
+.footer .col-2{
+    flex-basis: 180px;
+}
+.footer{
+    min-height: 40vh;
+}
+.footer p{
+    margin: 5px 0;
+}
+.footer .teh{
+    background-color: white;
+    padding: 3px 50px 3px 10px;
+    color: grey;
+    flex-grow: 0;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    width: 250px;
+}
+.footer .sbscrb{
+    background-color: orange;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    width: 100px;
+}
+.footer h3{
+    font-size: 24px;
+}
+.foooter .row{
+    justify-content: space-between;
+}
+.foooter{
+    margin-top: 100px;
+}
+
+.foooter .row .col-2{
+    width: fit-content;
+    flex:0 300px;
+}
+/*page2*/
+.image img{
+    width: 100%;
+    border-radius: 20px;
+    margin: 50px 0;
+}
+.small-header img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+    display: inline;
+}
+.small-header{
+    display: flex;
+
+}
+.small-header p{
+    margin-left: 60px;
+    color: grey;
+    display: inline;
+}
+.aj{
+    align-self: center;
+}
+.narrow-container{
+    max-width: 800px;
+    margin: auto;
+}
+h2{
+    font-size: 48px;
+    font-weight: 1000000;
+}
+h3{
+    font-size: 36px;
+}

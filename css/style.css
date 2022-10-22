@@ -16,7 +16,7 @@ body{
 }
 .section{
 
-    margin: 40px 0;
+    margin: 70px 0;
 }
 .bg-color{
     background-color: #DCEAF5;
@@ -56,7 +56,9 @@ body{
     max-width: 100%;
     vertical-align: bottom;
 }
-
+.banner-left h2{
+    font-weight: 900;
+}
 .sos{
     background-color: orange;
     color: white;
@@ -97,6 +99,8 @@ body{
 }
 .service img{
     border-radius: 15px;
+    width: 100%;
+    width: 100%;
 }
 .service a{
     color: orange;
@@ -130,6 +134,14 @@ body{
 .coll .row .col-2{
     flex: 1 200px;
 }
+.experience .row .col-2{
+    position: relative;
+}
+.col-2 .colr::after{
+    content: " ";
+    position: absolute;
+    background-image: orange;
+}
 
 .experience h1{
     color: orange;
@@ -142,6 +154,7 @@ body{
 
 .experience h3{
     color: black;
+    font-size: 48px;
 }
 
 .Services .p p{
@@ -202,15 +215,23 @@ body{
     background-color: orange;
     height: 40vh;
 }
+.full .col-2{
+    flex-direction: column;
+    display: flex;
+}
 .golloh{
-    margin: 7vh 200px 7vh 100px;
+    align-self: center;
+    margin: auto 20%;
     color: white;
 }
 .golloh a{
     background-color: white;
     color: orange;
     padding: 10px 20px;
-    border-radius: 15px;
+    border-radius: 25px;
+}
+.golloh h3{
+    font-size: 36px;
 }
 
 /*Greetings*/
@@ -218,6 +239,32 @@ body{
     height: 50px;
     width: 50px;
     border-radius: 100px;
+    float: left;
+}
+.ceodscrptn{
+    margin-left: 65px;
+}
+.gol{
+    margin: auto;
+}
+.Greetings .col-2 img{
+    margin: auto;
+}
+.col-2{
+    display: flex;
+    flex-direction: column;
+}
+.ceodscrptn p{
+    margin: 0;
+}
+.ceodscrptn .name{
+    font-weight: bold;
+}
+.ceodscrptn .position{
+    color: orange;
+}
+.Greetings h3{
+    font-size: 48px;
 }
 .playbtn img{
     position: relative;
@@ -232,6 +279,9 @@ body{
     top: -115px;
     right: -100px;
     color: white;
+}
+.playbtn{
+    height: 0;
 }
 /* latest news*/
 .blognews .row .col-3 h3{
@@ -281,19 +331,43 @@ body{
 .footer{
     min-height: 40vh;
 }
+.footer p{
+    margin: 5px 0;
+}
 .footer .teh{
     background-color: white;
     padding: 3px 50px 3px 10px;
     color: grey;
     flex-grow: 0;
     margin-bottom: 10px;
-    border-radius: 10px;
+    border-radius: 20px;
     width: 250px;
 }
 .footer .sbscrb{
     background-color: orange;
     color: white;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 10px;
     width: 100px;
+}
+.footer h3{
+    font-size: 24px;
+}
+.foooter .row{
+    justify-content: space-between;
+}
+.foooter{
+    margin-top: 100px;
+}
+
+.foooter .row .col-2{
+    width: fit-content;
+    flex:0 300px;
+}
+.footer .box{
+    width:40px;
+    height: 120px;
+    background-color: orange;
+    position: relative;
+    top: 300px;
 }
