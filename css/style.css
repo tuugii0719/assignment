@@ -1,0 +1,299 @@
+a{
+    text-decoration: none;
+    color: black;
+}
+body{
+    margin:0;
+    font-family: "poppins";
+}
+.col-3{
+    flex: 1 400px;
+    width: calc(100% / 3 - 40px);
+}
+.col-2{
+    width: calc(100% / 2 - 40px);
+    flex: 1 400px;
+}
+.section{
+
+    margin: 40px 0;
+}
+.bg-color{
+    background-color: #DCEAF5;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 40px;
+}
+
+.main-nav{
+    display: flex;
+    justify-content: space-between;
+}
+.Menu{
+    display: flex;
+    justify-content:center;
+    font-size: 20px;
+    align-items: center;
+    list-style: none;
+}
+.Menu li{
+    margin-left: 20px;
+}
+
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+.banner{
+    display: flex;
+    height: 60vh;
+    align-items:flex-end;
+}
+
+.banner-image img{
+    max-width: 100%;
+    vertical-align: bottom;
+}
+
+.sos{
+    background-color: orange;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 25px;
+}
+.sas{
+    color: black;
+    margin-left: 40px;
+}
+.Cta{
+    background-color: rgb(251, 232, 197);
+    color: orange;
+    padding: 10px 15px;
+    border-radius: 25px;
+}
+.banner h2{
+    font-size: 64px;
+    margin: 0;
+}
+.banner-left{
+    align-self: center;
+}
+
+.blocks a::after{
+    content: " \2192";
+    color: orange;
+}
+.blocks a{
+    color: orange;
+}
+.service .container .text-block2 h3{
+    font-size: 48px;
+}
+.text-block2{
+    width: 60%;
+    margin-bottom: 40px;
+}
+.service img{
+    border-radius: 15px;
+}
+.service a{
+    color: orange;
+}
+.service a::after{
+    content: "\2192";
+}
+.top{
+    display: flex;
+    justify-content: center;
+}
+.p1{
+    font-size:36px;
+}
+.p2{
+    margin-top: 64px;
+    font-size: 16px;
+    margin-left: 30px;
+}
+.solutions-card{
+    background-color: white;
+    border-radius: 15px;
+    padding: 15px;
+    margin: 40px;
+}
+
+.colr img{
+    width: 100%;
+    border-radius: 15px;
+}
+.coll .row .col-2{
+    flex: 1 200px;
+}
+
+.experience h1{
+    color: orange;
+    font-size: 2rem;
+}
+.experience h2{
+    color: black;
+    font-size: 3rem;
+}
+
+.experience h3{
+    color: black;
+}
+
+.Services .p p{
+    display: inline;
+    padding: 10px 15px;
+    border-radius: 30px;
+    margin-left: 50px;
+    border-style: solid;
+}
+
+.Services .p .activeb{
+    background-color: white;
+    color: orange;
+    border-style: none;
+}
+.Services .img img{
+   float: right;
+   position: relative;
+   top: -16px;
+   right: -16px;
+}
+.Services .p{
+    margin-top: 50px;
+    height: 100px;
+    display: flex;
+    align-items: center;
+}
+.sasb{
+    color: orange;
+}
+.sasb::after{
+    content: " \2192";
+}
+.Services .col-2 {
+    margin: auto;
+    margin-left: 60px;
+    justify-content: center;
+}
+.full .col-2{
+    height: 40vh;
+    gap: 0;
+}
+.full .row .col-2 .img{
+    background-image: url(/images/experience-image.png);
+    height: 40vh;
+    background-position: center ;
+    background-size: contain;
+
+    background-repeat:unset;
+}
+.full .row .col-2 {
+    background-color: orange;
+}
+.full .row{
+    gap: 0;
+}
+.full .col-2 .text{
+    background-color: orange;
+    height: 40vh;
+}
+.golloh{
+    margin: 7vh 200px 7vh 100px;
+    color: white;
+}
+.golloh a{
+    background-color: white;
+    color: orange;
+    padding: 10px 20px;
+    border-radius: 15px;
+}
+
+/*Greetings*/
+.ceopicture img{
+    height: 50px;
+    width: 50px;
+    border-radius: 100px;
+}
+.playbtn img{
+    position: relative;
+    top: -70px;
+    right: -30px;  
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+      }
+.playbtn p{
+    position: relative;
+    top: -115px;
+    right: -100px;
+    color: white;
+}
+/* latest news*/
+.blognews .row .col-3 h3{
+    font: 24px;
+}
+.blognews .row .col-3{
+    border-radius: 25px;
+    background-color: white;
+}
+.blognews .row .col-3 img{
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+    width: 100%;
+}
+.blognews .container h2{
+    padding-top: 60px;
+    font-weight: bolder;
+}
+.blognews .text{
+    margin: 30px;
+}
+.blognews a{
+    color: orange;
+}
+.blognews a::after{
+    content: "\2192";
+    font-size: 30px;
+    position: relative;
+    top: 6px;
+}
+.blognews{
+    padding-bottom: 50px;
+}
+/*footer*/
+.footer{
+    background-color: #063255;
+    color: white;
+    padding-top: 30px;
+}
+.footer a{
+    color: white;
+
+}
+.footer .col-2{
+    flex-basis: 180px;
+}
+.footer{
+    min-height: 40vh;
+}
+.footer .teh{
+    background-color: white;
+    padding: 3px 50px 3px 10px;
+    color: grey;
+    flex-grow: 0;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    width: 250px;
+}
+.footer .sbscrb{
+    background-color: orange;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100px;
+}
